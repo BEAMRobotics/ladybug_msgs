@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>ladybug_msgs</name>
+    <version>1.0.0</version>
+    <description>Messages related to the Ladybug camera driver.</description>
+    <maintainer email="sjphilli@uwaterloo.ca">Steve Phillips</maintainer>
+    <license>BSD</license>
+    <url type="website"></url>
+    <author>Steve Phillips</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>message_generation</build_depend>
+    <build_export_depend>message_runtime</build_export_depend>
+    <exec_depend>message_runtime</exec_depend>
+    <depend>std_msgs</depend>
+    <depend>sensor_msgs</depend>
+
+    <export></export>
+</package>
